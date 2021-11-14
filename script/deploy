@@ -1,7 +1,7 @@
 #!/bin/sh
 ssh ubuntu@3.34.215.88 <<EOF
     cd ~/JenkinsTest		
-    git pull origin main
+    git pull
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
     . ~/.nvm/nvm.sh 
     nvm install 16.2.0
